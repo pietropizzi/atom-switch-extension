@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Switch extension'
+      'command': 'switch-extension:switch'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'switch-extension'
+      'submenu': [
+        {
+          'label': 'Switch'
+          'command': 'switch-extension:switch'
+        }
+      ]
+    ]
+  }
+]
