@@ -8,12 +8,8 @@ A package that allows you to quickly switch between files with different file ex
 
 # Configuration
 
-## Defaults
-
-File extensions: `['.js', '.html', '.css']`
-Keyboard Shortcut: `Alt + o`
-
-TODO: Show how to configure the package
+Default file extensions: `['.js', '.html', '.css']`
+Default keyboard shortcut: `Alt + O`
 
 # Usage
 
