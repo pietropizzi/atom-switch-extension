@@ -1,5 +1,5 @@
 {
-  "name": "switch-extension",
+  "name": "atom-switch-extension",
   "main": "./lib/switch-extension",
   "version": "0.1.0",
   "description": "A package that allows you to quickly switch between files with different file extensions in the same directory.",
