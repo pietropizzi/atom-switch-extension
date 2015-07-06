@@ -8,6 +8,7 @@
     "atom-text-editor": "switch-extension:switch"
   },
   "repository": "https://github.com/pietropizzi/atom-switch-extension",
+  "homepage": "https://github.com/pietropizzi/atom-switch-extension",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

@@ -31,7 +31,7 @@ module.exports = SwitchExtension =
     currentExtension = currentFilePath.match(/(\.\w+$)/)[0]
     currentIndex = fileExtensions.indexOf(currentExtension)
 
-    console.log 'Switching extension on file %o with extensions %o', currentFilePath, fileExtensions
+    # console.log 'Switching extension on file %o with extensions %o', currentFilePath, fileExtensions
 
     relatedExtensions = fileExtensions.slice(currentIndex + 1).concat(fileExtensions.slice(0, currentIndex))
 
