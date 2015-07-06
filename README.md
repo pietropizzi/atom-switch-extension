@@ -4,7 +4,7 @@ A package that allows you to quickly switch between files with different file ex
 
 # Screenshot
 
-TODO: Add animated gif of the package in action
+![Screenshot](https://cloud.githubusercontent.com/assets/410305/8533672/dca993a4-2436-11e5-9f00-1add6f801275.gif)
 
 # Configuration
 
