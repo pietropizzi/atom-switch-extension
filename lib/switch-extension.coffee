@@ -27,7 +27,7 @@ module.exports = SwitchExtension =
     currentFilePath = editor.getPath()
     return unless currentFilePath
 
-    fileExtensions = atom.config.get('switch-extension.fileExtensions')
+    fileExtensions = atom.config.get('atom-switch-extension.fileExtensions')
     currentExtension = currentFilePath.match(/(\.\w+$)/)[0]
     currentIndex = fileExtensions.indexOf(currentExtension)
 
