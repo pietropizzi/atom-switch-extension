@@ -28,7 +28,7 @@ module.exports = SwitchExtension =
     return unless currentFilePath
 
     fileExtensions = atom.config.get('atom-switch-extension.fileExtensions')
-    currentExtension = currentFilePath.match(/(\.\w+$)/)[0]
+    currentExtension = /[^.]+([\w.]+)/.exec(currentFilePath)[1]
     currentIndex = fileExtensions.indexOf(currentExtension)
 
     # console.log 'Switching extension on file %o with extensions %o', currentFilePath, fileExtensions
